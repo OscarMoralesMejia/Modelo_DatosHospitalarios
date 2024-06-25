@@ -10,7 +10,8 @@ El análisis exploratorio se hará sobre un set de datos de pacientes de un Hosp
 Nuestro cliente desea saber las características más importantes que tienen los pacientes de cierto tipo de enfermedad que terminan en hospitalización.
 
 ##  Análisis exploratorio de datos(EDA)
-Responderemos algunas preguntas que nos hacemos al iniciar todo proyecto como:¿De qué tamaño es el set de datos? , ¿Hay registros duplicados?, ¿Hay valores nulos?,¿Cuáles son las variables o columnas?
+Responderemos algunas preguntas que nos hacemos al iniciar todo proyecto como:¿De qué tamaño es el set de datos? , ¿Hay registros duplicados?, ¿Hay valores nulos?,¿Cuáles son las variables o columnas?, para responder estas preguntas ejecutaremos algunas lineas de código y observamos que tenemos.
+
 ![image](https://github.com/OscarMoralesMejia/Modelo_DatosHospitalarios/assets/159685580/90635a4c-b6fe-4835-8600-c2efa2dde32e)
 
 #### Outlayers en variables numericas
@@ -45,8 +46,8 @@ Generamos el modelo y obtenemos la siguiente matriz de confusión
 
 #### Evaluación del modelo
 
-Aplicamos accuracy score y obtenemos inicial que predice que 6 de cada 10 pacientes seran hospitalizados.
-
+Aplicamos accuracy score y obtenemos inicial que predice que 6 de cada 10 pacientes seran hospitalizados.Para ser un primer acercamiento no esta nada mal, asi que incluiremos mas variables y veremos los resultados.
+El código está en el archivo modelo_v1.ipynb
 
 
 
