@@ -46,6 +46,8 @@ Generamos el modelo y obtenemos la siguiente matriz de confusión
 
 #### Evaluación del modelo
 
+![image](https://github.com/OscarMoralesMejia/Modelo_DatosHospitalarios/assets/159685580/e08a6079-6770-4974-bc5a-7b36a4567632)
+
 Aplicamos accuracy score y obtenemos inicial que predice que 6 de cada 10 pacientes seran hospitalizados.Para ser un primer acercamiento no esta nada mal, asi que incluiremos mas variables y veremos los resultados.
 El código está en el archivo modelo_v1.ipynb
 
