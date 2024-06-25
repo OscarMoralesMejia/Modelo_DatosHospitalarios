@@ -6,6 +6,9 @@ Se comparte el archivo de extensión ipynb donde se tiene la referencia del cód
 Los datos usados estan en el archivo de excel Hospitalizacion.xlsx
 El análisis exploratorio se hará sobre un set de datos de pacientes de un Hospital que han sido hospitalizados y no hospitalizados.
 
+### Requerimiento
+Nuestro cliente desea saber las características más importantes que tienen los pacientes de cierto tipo de enfermedad que terminan en hospitalización.
+
 ##  Análisis exploratorio de datos(EDA)
 Responderemos algunas preguntas que nos hacemos al iniciar todo proyecto como:¿De qué tamaño es el set de datos? , ¿Hay registros duplicados?, ¿Hay valores nulos?,¿Cuáles son las variables o columnas?
 ![image](https://github.com/OscarMoralesMejia/Modelo_DatosHospitalarios/assets/159685580/90635a4c-b6fe-4835-8600-c2efa2dde32e)
@@ -27,11 +30,22 @@ En este punto ya habia analizado que se trata de un problema de  Clasificación 
 
 ![image](https://github.com/OscarMoralesMejia/Modelo_DatosHospitalarios/assets/159685580/9a2b19be-8e43-45c8-90c7-760ffb3b4b0a)
 
+
 #### Modelo
+De acuerdo al requerimiento se trata de un problema de clasificación, en este caso comenzaremos por aplicar regresión logistica, iniciando con un set de datos de 3 variables independientes y una variable dependiente.
+
+En la siguiente grafica podemos ver que el set de datos esta desbalanceado asi que aplicaremos oversampling
+![image](https://github.com/OscarMoralesMejia/Modelo_DatosHospitalarios/assets/159685580/77eafa79-85da-4f48-883c-ed3cd8a7d30c)
+
+Generamos el modelo y obtenemos la siguiente matriz de confusión
+
+![image](https://github.com/OscarMoralesMejia/Modelo_DatosHospitalarios/assets/159685580/df82005c-cb22-4841-80a4-9a0691b2e861)
+
+
 
 #### Evaluación del modelo
 
-
+Aplicamos accuracy score y obtenemos inicial que predice que 6 de cada 10 pacientes seran hospitalizados.
 
 
 
