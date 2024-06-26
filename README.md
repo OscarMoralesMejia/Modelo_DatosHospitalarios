@@ -50,8 +50,12 @@ Generamos el modelo y obtenemos la siguiente matriz de confusión
 
 Aplicamos accuracy score y obtenemos inicial que predice que 6 de cada 10 pacientes seran hospitalizados.Para ser un primer acercamiento no esta nada mal, asi que incluiremos mas variables y veremos los resultados.
 El código está en el archivo modelo_v1.ipynb
-
-
+#### Conclusiones
+Se desarrollaron más versiones del mismo modelo de regresión logistica incrementando el número de variables llegando a un total de 9 variables las cuales son:
+'EDAD','BIOPSIAS PREVIAS','PSA','VOLUMEN PROSTATICO','ANTIBIOTICO UTILIAZADO EN LA PROFILAXIS','NUMERO DE MUESTRAS TOMADAS','CUP','BIOPSIA','NUMERO DE DIAS POST BIOPSIA EN QUE SE PRESENTA LA COMPLICACIÓN INFECCIOSA','HOSPITALIZACION' 
+y con las cuales llegamos a un buen modelo para generalizar cuando un paciente será hospitalizado.
+Por lo que las variables usadas son las de mayor peso, para cuando un paciente es hospitalizado.
+Esto lo podemos ver en el archivo modelo_v2.ipynb
 
 
 
